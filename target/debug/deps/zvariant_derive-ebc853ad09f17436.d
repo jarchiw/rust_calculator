@@ -1,0 +1,10 @@
+/home/Justin/portfolioWebsite/rust_calculator/target/debug/deps/libzvariant_derive-ebc853ad09f17436.so: /home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zvariant_derive-4.2.0/src/lib.rs /home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zvariant_derive-4.2.0/src/dict.rs /home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zvariant_derive-4.2.0/src/type.rs /home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zvariant_derive-4.2.0/src/utils.rs /home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zvariant_derive-4.2.0/src/value.rs /home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zvariant_derive-4.2.0/src/../README.md
+
+/home/Justin/portfolioWebsite/rust_calculator/target/debug/deps/zvariant_derive-ebc853ad09f17436.d: /home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zvariant_derive-4.2.0/src/lib.rs /home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zvariant_derive-4.2.0/src/dict.rs /home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zvariant_derive-4.2.0/src/type.rs /home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zvariant_derive-4.2.0/src/utils.rs /home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zvariant_derive-4.2.0/src/value.rs /home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zvariant_derive-4.2.0/src/../README.md
+
+/home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zvariant_derive-4.2.0/src/lib.rs:
+/home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zvariant_derive-4.2.0/src/dict.rs:
+/home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zvariant_derive-4.2.0/src/type.rs:
+/home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zvariant_derive-4.2.0/src/utils.rs:
+/home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zvariant_derive-4.2.0/src/value.rs:
+/home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zvariant_derive-4.2.0/src/../README.md:

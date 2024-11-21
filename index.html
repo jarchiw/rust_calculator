@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rust Calculator</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        input, button { margin: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Rust Calculator</h1>
+    <div>
+        <input id="num1" type="number" placeholder="Number 1" />
+        <input id="num2" type="number" placeholder="Number 2" />
+    </div>
+    <div>
+        <button id="add">Add</button>
+        <button id="subtract">Subtract</button>
+        <button id="multiply">Multiply</button>
+        <button id="divide">Divide</button>
+    </div>
+    <div>
+        <h3>Result: <span id="result"></span></h3>
+    </div>
+
+    <script type="module">
+        // Import the WASM init function and the Calculator class
+        import init, { Calculator } from './pkg/rust_calculator.js';
+
+        async function run() {
+            // Initialize the WASM module
+            await init();  
+            console.log('Wasm initialized successfully');
+    
+            // Create a new instance of the Calculator class from Rust WebAssembly
+            const calculator = Calculator.new();  // Make sure to use the static `new()` method
+    
+            // Event listeners for buttons
+            document.getElementById('add').onclick = () => {
+                const num1 = parseFloat(document.getElementById('num1').value);
+                const num2 = parseFloat(document.getElementById('num2').value);
+                const result = calculator.add(num1, num2);
+                console.log('Add result:', result);  // Log result for debugging
+                document.getElementById('result').textContent = result;
+            };
+    
+            document.getElementById('subtract').onclick = () => {
+                const num1 = parseFloat(document.getElementById('num1').value);
+                const num2 = parseFloat(document.getElementById('num2').value);
+                const result = calculator.subtract(num1, num2);
+                console.log('Subtract result:', result);  // Log result for debugging
+                document.getElementById('result').textContent = result;
+            };
+    
+            document.getElementById('multiply').onclick = () => {
+                const num1 = parseFloat(document.getElementById('num1').value);
+                const num2 = parseFloat(document.getElementById('num2').value);
+                const result = calculator.multiply(num1, num2);
+                console.log('Multiply result:', result);  // Log result for debugging
+                document.getElementById('result').textContent = result;
+            };
+    
+            document.getElementById('divide').onclick = () => {
+                const num1 = parseFloat(document.getElementById('num1').value);
+                const num2 = parseFloat(document.getElementById('num2').value);
+                try {
+                    const result = calculator.divide(num1, num2);
+                    console.log('Divide result:', result);  // Log result for debugging
+                    document.getElementById('result').textContent = result;
+                } catch (error) {
+                    console.error('Error in division:', error);
+                    document.getElementById('result').textContent = 'Error: ' + error.message;
+                }
+            };
+        }
+    
+        run();    
+    </script>
+</body>
+</html>

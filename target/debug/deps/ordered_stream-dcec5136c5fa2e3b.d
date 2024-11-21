@@ -1,0 +1,11 @@
+/home/Justin/portfolioWebsite/rust_calculator/target/debug/deps/libordered_stream-dcec5136c5fa2e3b.rmeta: /home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ordered-stream-0.2.0/src/lib.rs /home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ordered-stream-0.2.0/src/adapters.rs /home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ordered-stream-0.2.0/src/join.rs /home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ordered-stream-0.2.0/src/multi.rs /home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ordered-stream-0.2.0/src/../README.md
+
+/home/Justin/portfolioWebsite/rust_calculator/target/debug/deps/libordered_stream-dcec5136c5fa2e3b.rlib: /home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ordered-stream-0.2.0/src/lib.rs /home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ordered-stream-0.2.0/src/adapters.rs /home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ordered-stream-0.2.0/src/join.rs /home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ordered-stream-0.2.0/src/multi.rs /home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ordered-stream-0.2.0/src/../README.md
+
+/home/Justin/portfolioWebsite/rust_calculator/target/debug/deps/ordered_stream-dcec5136c5fa2e3b.d: /home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ordered-stream-0.2.0/src/lib.rs /home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ordered-stream-0.2.0/src/adapters.rs /home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ordered-stream-0.2.0/src/join.rs /home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ordered-stream-0.2.0/src/multi.rs /home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ordered-stream-0.2.0/src/../README.md
+
+/home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ordered-stream-0.2.0/src/lib.rs:
+/home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ordered-stream-0.2.0/src/adapters.rs:
+/home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ordered-stream-0.2.0/src/join.rs:
+/home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ordered-stream-0.2.0/src/multi.rs:
+/home/Justin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ordered-stream-0.2.0/src/../README.md:
