@@ -26,11 +26,11 @@ A simple calculator web application built using **Rust** and compiled to **WebAs
   ```bash
   cargo install wasm-pack
 
-## Installation & Setup**
+## Installation & Setup
 
 Can be set up on server such as http (Not to be run in terminal. No main file.)
 
-## Usage**
+## Usage
 
 Access through hosted server to interact with the calculator.
 
